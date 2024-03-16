@@ -7,47 +7,46 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: My new Nuxt module
 -->
 
-# My Module
+# Nuxt Domains
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+Nuxt domains adds a special domains folder to your pages directory.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+<!-- - [🏀 Online playground](https://stackblitz.com/github/heygarrison/nuxt-domains?file=playground%2Fapp.vue) -->
 
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- ⛰ &nbsp;Simple folder structure
+- 🚠 &nbsp;Supports domains and subdomains
+- 🌲 &nbsp;Fully compatible with SSR
 
 ## Quick Setup
 
-1. Add `my-module` dependency to your project
+1. Add `nuxt-domains` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D my-module
+pnpm add -D nuxt-domains
 
 # Using yarn
-yarn add --dev my-module
+yarn add --dev nuxt-domains
 
 # Using npm
-npm install --save-dev my-module
+npm install --save-dev nuxt-domains
 ```
 
-2. Add `my-module` to the `modules` section of `nuxt.config.ts`
+2. Add `nuxt-domains` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    'my-module'
+    'nuxt-domains'
   ]
 })
 ```
